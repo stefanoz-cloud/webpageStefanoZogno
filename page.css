@@ -1,0 +1,133 @@
+body {
+  background-attachment: scroll;
+  background-image: url("immagini/background.jpg");
+  background-repeat: repeat-y;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  margin: 0%;
+}
+
+header {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 1%;
+}
+
+header img {
+  width: 8%;
+}
+
+header ul {
+  list-style-type: none;
+  float: unset;
+  color: aliceblue;
+  word-spacing: 20px;
+}
+
+header ul li {
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 20px;
+}
+
+header ul li a {
+  text-decoration: white;
+  color: blue;
+  transition: cubic-bezier(1, 0, 0, 1);
+  border-radius: 20px;
+}
+
+header ul li a:hover {
+  background-color: dodgerblue;
+  border-radius: 20px;
+}
+
+header ul li.active a {
+  background-color: aquamarine;
+}
+
+.home {
+  top: 2%;
+  left: 20%;
+  font-weight: bolder;
+  position: absolute;
+  display: block;
+}
+
+main {
+  display: block;
+  position: absolute;
+  top: 11%;
+  height: 60%;
+  width: 100%;
+}
+
+.present i {
+  font-family: "Cracked Johnnie";
+  color: black;
+  font-weight: bold;
+  font-size: 43px;
+  margin-left: 20%;
+  margin-top: auto;
+}
+
+#data {
+  margin-left: 20%;
+  margin-top: 2%;
+  display: inline-block;
+  position: absolute;
+  font-size: 40px;
+}
+
+.present {
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+  font-weight: bolder;
+  height: 100%;
+}
+
+.present img {
+  width: 40%;
+  height: auto;
+  margin-left: 50%;
+  margin-top: -10%;
+  display: block;
+}
+
+.descr {
+  display: block;
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.descr img {
+  width: 10%;
+  height: 10%;
+}
+
+footer {
+  position: absolute;
+  top: 80%;
+  background-color: bisque;
+  width: 100%;
+  height: 20%;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+footer p {
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
