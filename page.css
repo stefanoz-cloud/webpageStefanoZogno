@@ -119,6 +119,7 @@ main {
 
 footer {
   position: absolute;
+  display: block;
   top: 85%;
   background-color: bisque;
   width: 100%;
