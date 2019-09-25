@@ -5,6 +5,7 @@ body {
   overflow: auto;
   position: absolute;
   display: block;
+  zoom: 1;
 }
 
 header {
