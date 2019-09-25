@@ -2,12 +2,10 @@ body {
   background-image: url("immagini/imgprova.jpg");
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: absolute;
   display: block;
   margin: 0%;
-  overflow: auto;
-  zoom: 1;
 }
 
 header {
@@ -74,43 +72,42 @@ main {
   font-family: "Cracked Johnnie";
   color: black;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 43px;
   margin-left: 5%;
   margin-top: auto;
 }
 
 #impos {
-  margin-left: 2%;
-  margin-top: 2%;
-  display: inline-block;
-  position: absolute;
-  font-size: 30px;
+  margin-left: 5%;
+  top: 30%;
+  left: 8%;
+  font-size: 25px;
 }
 
 .present {
   font-family: "Courier New", Courier, monospace;
   color: black;
   font-weight: bolder;
-  height: 100%;
-}
-
-.present img {
-  width: 40%;
-  height: auto;
-  margin-left: 50%;
-  margin-top: -10%;
-  display: block;
 }
 
 .descr {
   display: block;
   position: absolute;
-  top: 55%;
+  top: 65%;
   width: 100%;
   font-size: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   font-weight: bolder;
+}
+
+.foto img {
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  width: 40%;
+  left: 50%;
+  margin-left: 10%;
 }
 
 .descr img {
@@ -121,7 +118,7 @@ main {
 footer {
   position: absolute;
   display: block;
-  top: 83%;
+  top: 85%;
   background-color: bisque;
   width: 100%;
   height: auto;
