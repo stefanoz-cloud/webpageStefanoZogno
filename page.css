@@ -5,6 +5,7 @@ body {
   position: absolute;
   display: block;
   margin: 0%;
+  overflow: scroll;
 }
 
 header {
