@@ -1,7 +1,10 @@
 body {
   margin: 0%;
-  height: 100%;
+  height: 100ch;
   width: 100%;
+  overflow: auto;
+  position: absolute;
+  display: block;
 }
 
 header {
@@ -23,11 +26,12 @@ header {
   transform: translate(-50%, -50%);
   position: absolute;
   color: #1670f0;
-  padding: 10px 40px;
+  padding: 10px 30px;
   font-size: 10x;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   background: mistyrose;
+  box-sizing: border-box;
 }
 
 .home a::before {
@@ -239,16 +243,20 @@ main {
   display: block;
   position: absolute;
   background-color: white;
-  height: 31%;
+  height: auto;
   width: 100%;
+  font-size: 90%;
+  border: 1px solid black;
+
 }
+
 
 footer {
   display: block;
   position: absolute;
   background-color: bisque;
-  top: 85%;
-  height: 15%;
+  top: 90%;
+  height: auto;
   width: 100%;
 }
 
