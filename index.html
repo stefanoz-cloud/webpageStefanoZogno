@@ -35,7 +35,7 @@
               <a href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li><a href="informazioni.html">Informazioni</a></li>
-            <li class="dropdown">
+         <!--   <li class="dropdown">
               <a
                 href="#"
                 class="dropdown-toggle"
@@ -48,7 +48,7 @@
               ></a>
               <ul class="dropdown-menu">
                 <li><a href="saperePiu.html">Voglio sapere di più</a></li>
-                <!--  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>-->
@@ -115,10 +115,6 @@
           role="button"
           data-slide="prev"
         >
-          <span
-            class="glyphicon glyphicon-chevron-left"
-            aria-hidden="true"
-          ></span>
         </a>
         <a
           class="right carousel-control"
@@ -126,10 +122,6 @@
           role="button"
           data-slide="next"
         >
-          <span
-            class="glyphicon glyphicon-chevron-right"
-            aria-hidden="true"
-          ></span>
         </a>
       </div>
     </div>
@@ -139,8 +131,7 @@
          <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif"> CHI SONO: </h2> <br />
           Mi chiamo Stefano Zogno, vengo da Due Carrare (PD) e sono un giovane
           appassionato alla programmazione e perciò al mondo dell'informatica
-          fin da piccolo. (Sul bottone "informazioni" che si trova in alto a
-          destra c'è descritta la mia esperienza scolastica e lavorativa.)
+          fin da piccolo.
         </div>
         <div class="col-md-36 col-sm-6">
           <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif">STUDI: </h2><br />
@@ -152,6 +143,33 @@
           cloud & backend developer.
         </div>
       </div>
+      <hr>
+      <!-- modal -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-info btn-large btn-block" data-toggle="modal" data-target="#exampleModal">
+        INFORMAZIONI SUL SITO
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> <b> INFORMAZIONI SULL'AUTORE </b> </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Autore della page: Stefano Zogno <br>
+              Ultimo aggiornamento della page: 30/09/2019 <br>
+              Nessun scopo di lucro sulla creazione di questa page
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
