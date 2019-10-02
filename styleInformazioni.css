@@ -3,6 +3,14 @@ img {
   padding-top: 10px;
 }
 
-ul{
+ul {
   display: inline-block;
+}
+
+.popover-content {
+  margin-left: 15px;
+}
+
+ul {
+  padding-left: 20px;
 }
