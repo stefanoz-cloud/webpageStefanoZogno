@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document Stefano Zogno</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Pagina di Stefano Zogno</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li><a href="informazioni.html">Informazioni</a></li>
+         <!--   <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="saperePiu.html">Voglio sapere di più</a></li>
+                  <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>-->
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <div class="contaniner">
+      <!-- carousel js-->
+      <div
+        id="carousel-example-generic"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-example-generic"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="container">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div
+              class="item active"
+              style="background: url('immagini/img3.jpg')";
+            >
+              <div class="carousel-caption">
+                <h2><b> Perito informatico </b></h2>
+                <p class="lead">
+                  Diplomato in perito informatico e sistemista di rete
+                </p>
+              </div>
+            </div>
+            <div class="item" style="background: url('immagini/img1.jpg')">
+              <div class="carousel-caption">
+                <h2><b> IIS Kennedy Monselice </b></h2>
+                <p class="lead">Scuola tecnico superiore situata a Monselice</p>
+              </div>
+            </div>
+            <div class="item" style="background: url('immagini/img2.png')">
+              <div class="carousel-caption">
+                <h2><b>ITS Kennedy Padova<h2></b>
+                <p class="lead">
+                  Istituto tecnico superiore per specializzazione in cloud &
+                  backend developer 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="container" id="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+         <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif"> CHI SONO: </h2> <br />
+          Mi chiamo Stefano Zogno, vengo da Due Carrare (PD) e sono un giovane
+          appassionato alla programmazione e perciò al mondo dell'informatica
+          fin da piccolo. <br> I miei hobby in linea generale sono leggere, programmare e ovviamente praticare della sana attività fisica.
+          Sono molto intraprendente, curioso e appassionato all'informatica.
+        </div>
+        <div class="col-md-36 col-sm-6">
+          <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif">STUDI: </h2><br />
+          Sono diplomato come perito informatico al IIS Kennedy Monselice (voto
+          96/100). Gli studi sono durati 5 anni, ho avuto anche l'oppurtunità di
+          partecipare a vari progetti informatici e tecnologici. (vedi su: <a href="informazioni.html">informazioni</a> )
+          <br />
+          Al momento sto frequentando l'ITS Kennedy di Padova che concerne il
+          cloud & backend developer.
+        </div>
+      </div>
+      <hr>
+      <!-- modal -->
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-info btn-large btn-block" data-toggle="modal" data-target="#exampleModal">
+        INFORMAZIONI SUL SITO
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"> <b> INFORMAZIONI SULL'AUTORE </b> </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Autore della page: Stefano Zogno <br>
+              Ultimo aggiornamento della page: 10/10/2019 <br>
+              Nessun scopo di lucro sulla creazione di questa page
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
